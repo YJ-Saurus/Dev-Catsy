@@ -4,7 +4,7 @@ author: yjsaurus
 
 # 배포 URL (GitHub Pages URL로 변경하세요)
 # username.github.io 형식이면 baseurl은 비워두세요
-url: "https://yjsau.github.io"
+url: "https://YJ-Saurus.github.io"
 baseurl: "/Dev-Catsy"  # 레포지토리 이름
 
 # 테마 (기본 minima 사용)
