@@ -1,0 +1,47 @@
+title: Dev-Catsy
+description: 개발 이야기를 담은 기술 블로그
+author: yjsaurus
+
+# 배포 URL (GitHub Pages URL로 변경하세요)
+# username.github.io 형식이면 baseurl은 비워두세요
+url: "https://yjsau.github.io"
+baseurl: "/Dev-Catsy"  # 레포지토리 이름
+
+# 테마 (기본 minima 사용)
+theme: jekyll-theme-hydejack
+
+hydejack:
+  accent_color: "#4fb1ba"
+  accent_image:
+    background: "#1a1a2e"
+    overlay: false
+  google_fonts: Noto+Sans+KR:400,700
+  font: Noto Sans KR
+  font_heading: Noto Sans KR
+  dark_mode:
+    dynamic: true
+    icon: true
+  no_mark_external: true
+
+# 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 빌드 설정
+markdown: kramdown
+highlighter: rouge
+
+# 퍼마링크 형식
+permalink: /:year/:month/:day/:title/
+
+# 제외할 파일
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .github
+  - README.md

@@ -1,0 +1,13 @@
+# Jekyll 빌드 산출물
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
